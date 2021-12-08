@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 175, 215);
+}
+.form{
+    width: 50%;
+    height: 25%;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.reg-name{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: blue;
+    margin-top: -20px;
+}
+.form-input,.form-check-box,.form-file{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;  
+}
+.form-check-box{
+    height: 150px;
+    font-size: 20px;
+}
+.form-file{
+    display: flex;
+    justify-content: space-between;
+}
+.inputs,.save-button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: black;
+}
+.save-button{
+    background-color: rgba(0, 145, 255, 0.556);
+}
+.inspire-academy-name,.inspire-academy-name-registration,.inspire-academy-name-home{
+    width: 100%;
+    margin-top: -100px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid blue;
+}
+.inspire-academy-name-registration{
+    margin-top: -200px;
+}
+.inspire-academy-name-home{
+    margin-top: -200px;
+}
+.inspire-academy-welcome-message{
+    display: flex;
+    justify-content: center;
+}
+.home-options{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+.home-options a{
+    text-decoration: none;
+}
+.home-options a:hover{
+    color: red;
+}
+.user-details{
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+}
